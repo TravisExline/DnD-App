@@ -1,0 +1,573 @@
+body {
+    font-family: 'Cinzel', serif, bold;
+    background-image: url('https://cdn.shopify.com/s/files/1/1272/6169/products/s5715m_13th_cent_4bccd10b0e093_large.jpg?v=1471487576');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    font-size: 30px;
+}
+
+.all-buttons {
+    text-align: center;
+}
+
+
+#character-kill-btn {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d; 
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+#character-res-btn {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d; 
+    text-align: center;
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5
+}
+
+#logout-btn {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d 
+}
+
+#item-creation-button {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}
+
+#main-btn {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}
+
+#see-all-characters-btn {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}
+
+#see-all-items-btn {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d 
+}
+
+#character-creation-page-btn {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}
+
+.submit-user {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}
+
+.submit-item {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}
+
+.submit-character {
+    display: grid;
+    grid-column: 3 / 5;
+    grid-row: 11 / 12;
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}
+
+
+.character-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    font-size: 25px
+}
+
+#character-render-header {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+#character-render-spec {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+#character-render-race {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#character-render-age {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+#character-render-str {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#character-render-dex {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+#character-render-const {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#character-render-int {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+#character-render-wis {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+#character-render-char {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+#character-render-details {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.all-characters-page {
+    text-align: center;
+    font-size: 25px
+}
+
+.all-items-page {
+    text-align: center;
+    font-size: 20px;
+}
+
+.user-greeting {
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    font-size:55px;
+}
+
+.character-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    font-size: 25px
+}
+
+#form-header {
+    grid-column: 3 / 5;
+    text-align: center
+}
+
+#character-name {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3
+}
+
+#name-tag {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3
+}
+
+#spec-tag {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 2 / 3
+}
+
+#character-spec {
+    display: grid;
+    grid-column: 6 / 7;
+    grid-row: 2 / 3
+}
+
+#race-tag {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3/ 4;
+}
+
+#character-race {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#age-tag {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+}
+
+#character-age {
+    display: grid;
+    grid-column: 6 / 7;
+    grid-row: 3 / 4;
+}
+
+#str-tag {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+#character-str {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#dex-tag {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 4 / 5;
+}
+
+#character-dex {
+    display: grid;
+    grid-column: 6 / 7;
+    grid-row: 4 / 5;
+}
+
+#const-tag {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+#character-const {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+#int-tag {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+}
+
+#character-int {
+    display: grid;
+    grid-column: 6 / 7;
+    grid-row: 5 / 6;
+}
+
+#wis-tag {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+
+#character-wis {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+#char-tag {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;
+}
+
+#character-char {
+    display: grid;
+    grid-column: 6 / 7;
+    grid-row: 6 / 7;
+}
+
+#level-tag {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+
+#character-details {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+
+.item-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    font-size: 25px;
+}
+
+#item-creation-header {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+#item-creation-name {
+    display: grid;
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+}
+
+#item-name {
+    display: grid;
+    grid-column: 4 / 5 ;
+    grid-row: 2 / 3;
+}
+
+#item-creation-category {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#item-category {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+#item-creation-description {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#item-description {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+#item-creation-stats {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+#item-stats {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+.submit-item {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 9 / 10;
+}
+
+.new-character-page {
+    text-align: center;
+    font-size: 25px;
+}
+
+.new-item-page {
+    text-align: center;
+    font-size: 25px;
+}
+
+.new-character-sheet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    font-size: 25px
+}
+
+#new-character-header {
+    display: grid;
+    grid-column: 3/ 4 ;
+    grid-row: 1 / 2;
+}
+
+#new-character-class {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+#new-character-race {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#new-character-age {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+#new-character-str {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#new-character-dex {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+#new-character-const {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#new-character-int {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+#new-character-wis {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+#new-character-char {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+#new-character-details {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+#dice-btn {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: #4d4d4d;
+}
+
+#dice-roll {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px
+}
+
+#character-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    font-size: 25px
+}
+
+#single-character-header {
+    display: grid;
+    grid-column: 3/ 4 ;
+    grid-row: 1 / 2;
+}
+
+#single-character-class {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+#single-character-race {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#single-character-age {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+#single-character-str {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#single-character-dex {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+#single-character-const {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#single-character-int {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+#single-character-wis {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+#single-character-char {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+#single-character-details {
+    display: grid;
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.single-character-page {
+    text-align: center;
+    font-size: 25px;
+}
+
+.add-item-to-character {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-color: #4d4d4d
+}

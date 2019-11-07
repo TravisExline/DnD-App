@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>D&D Creation</title>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|MedievalSharp&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <button id='logout-btn'>Logout</button>
+        <div class='user-greeting'>
+
+        </div>
+        <div class='all-buttons'><button id='character-creation-page-btn'>Character Creation</button><button id='item-creation-button'>Item Creation</button><button id='main-btn'>Return to Main Page</button><button id='see-all-characters-btn'>View All Characters</button><button id='see-all-items-btn'>View All Items</button></div>
+        <div class='create-new-character'>
+            <form class='character-form'>
+                    <h3 id='form-header'>Create a New Character</h3>
+                   <p id='name-tag'>Name:</p><input type='text' name='name' id='character-name'>
+                </br>
+                    <p id='spec-tag'>Class:</p><input type='text' name='spec' id='character-spec'>
+                </br>
+                    <p id='race-tag'>Race:</p><input type='text' name='race' id='character-race'>
+                </br>
+                    <p id='age-tag'>Age:</p><input type='text' name='age' id='character-age'>
+                </br>
+                    <p id='str-tag'>Strength:</p><input type='text' name='str' id='character-str'>
+                </br>
+                    <p id='dex-tag'>Dexterity:</p><input type='text' name='dex' id='character-dex'>
+                </br>
+                    <p id='const-tag'>Constitution:</p><input type='text' name='const' id='character-const'>
+                </br>
+                    <p id='int-tag'>Intellect:</p><input type='text' name='int' id='character-int'>
+                </br>
+                    <p id='wis-tag'>Wisdom:</p><input type='text' name='wis' id='character-wis'>
+                </br>
+                    <p id='char-tag'>Charisma:</p><input type='text' name='char' id='character-char'>
+                </br>
+                    <p id='level-tag'>Level:</p><input type='text' name='details' id='character-details'>
+                </br>
+                </br>
+                <input type='submit' name='submit' class='submit-character'>
+            </form>
+            <button id='dice-btn'>Roll the Dice</button><p id='dice-roll'></p>
+        </div>
+        <div class='create-new-item'>
+            <form class='item-form'>
+                <h3 id='item-creation-header'>Create a New Item</h3>
+                <p id='item-creation-name'>Name:</p><input type='text' name='name' id='item-name'>
+            </br>
+                <p id='item-creation-category'>Category:</p><input type='text' name='category' id='item-category'>
+            </br>
+                <p id='item-creation-description'>Description:</p><input type='text' name='description' id='item-description'>
+            </br>
+                <p id='item-creation-stats'>Stats:</p><input type='text' name='stats' id='item-stats'>
+            </br>
+            <input type='submit' name='submit' class='submit-item'>
+            </form>
+        </div>
+        <div class='new-item-page'>
+
+        </div>
+        <div class='all-items-page'>
+            
+        </div>
+        <div class='new-character-page'>
+
+        </div>
+        <div class='single-character-page'>
+            
+        </div>
+        <div class='all-characters-page'>
+
+        </div>
+
+        <div class='container'>
+            <form class='sign-in-form' >
+                <h3>Begin Your Adventure</h3>
+                Name: <input type='text' name='name' id="user-sign-in-name" class='input-text'>
+                </br>
+                Email: <input type='text' name='email' id="user-sign-in-email" class='input-text'>
+                </br>
+                <input type='submit' name='submit' class='submit-user'>
+            </form>
+        </div>
+        <script type="text/javascript" language="javascript" src="src/index.js"></script>
+    </body>
+</html>
