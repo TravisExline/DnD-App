@@ -9,7 +9,7 @@ class CharactersController < ApplicationController
     end
 
     def show
-        character = Character.find_by(id: params[:id])
+        character = Character.find_by(id: params[:user_id])
         if character
             render json: character, :include => {
                 character_items: {
