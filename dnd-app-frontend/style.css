@@ -194,8 +194,12 @@ body {
     text-align: center
 }
 
-#character-name {
+#character-name, #character-spec, #character-race, #character-age, #character-str, #character-dex, #character-const, #character-int, #character-wis, #character-char, #character-details {
     display: grid;
+    border-radius: 7px;
+}
+
+#character-name {
     grid-column: 2 / 3;
     grid-row: 2 / 3
 }
@@ -213,7 +217,6 @@ body {
 }
 
 #character-spec {
-    display: grid;
     grid-column: 6 / 7;
     grid-row: 2 / 3
 }
@@ -225,7 +228,6 @@ body {
 }
 
 #character-race {
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
@@ -237,7 +239,6 @@ body {
 }
 
 #character-age {
-    display: grid;
     grid-column: 6 / 7;
     grid-row: 3 / 4;
 }
@@ -249,7 +250,6 @@ body {
 }
 
 #character-str {
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
 }
@@ -261,7 +261,6 @@ body {
 }
 
 #character-dex {
-    display: grid;
     grid-column: 6 / 7;
     grid-row: 4 / 5;
 }
@@ -273,7 +272,6 @@ body {
 }
 
 #character-const {
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 5 / 6;
 }
@@ -285,7 +283,6 @@ body {
 }
 
 #character-int {
-    display: grid;
     grid-column: 6 / 7;
     grid-row: 5 / 6;
 }
@@ -297,7 +294,6 @@ body {
 }
 
 #character-wis {
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 6 / 7;
 }
@@ -309,7 +305,6 @@ body {
 }
 
 #character-char {
-    display: grid;
     grid-column: 6 / 7;
     grid-row: 6 / 7;
 }
@@ -321,7 +316,6 @@ body {
 }
 
 #character-details {
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 7 / 8;
 }
