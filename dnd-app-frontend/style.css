@@ -339,6 +339,12 @@ body {
     grid-row: 1 / 2;
 }
 
+#item-name, #item-category, #item-description, #item-stats {
+    display: grid;
+    grid-column: 4 / 5;
+    border-radius: 7px;
+}
+
 #item-creation-name {
     display: grid;
     grid-column: 2 / 3 ;
@@ -346,8 +352,6 @@ body {
 }
 
 #item-name {
-    display: grid;
-    grid-column: 4 / 5 ;
     grid-row: 2 / 3;
 }
 
@@ -358,8 +362,6 @@ body {
 }
 
 #item-category {
-    display: grid;
-    grid-column: 4 / 5;
     grid-row: 3 / 4;
 }
 
@@ -370,8 +372,6 @@ body {
 }
 
 #item-description {
-    display: grid;
-    grid-column: 4 / 5;
     grid-row: 4 / 5;
 }
 
@@ -382,8 +382,6 @@ body {
 }
 
 #item-stats {
-    display: grid;
-    grid-column: 4 / 5;
     grid-row: 5 / 6;
 }
 
@@ -574,6 +572,7 @@ body {
 
 .sign-in-form {
     display: inline-block;
+    margin-top: 95px;
     opacity: .9;
     background-color: #e4ecec;
     width: 300px;
