@@ -2,7 +2,7 @@ body {
     font-family: 'Cinzel', serif, bold;
     background-image: url('https://cdn.shopify.com/s/files/1/1272/6169/products/s5715m_13th_cent_4bccd10b0e093_large.jpg?v=1471487576');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top 100px right 765px;
     background-attachment: fixed;
 }
 
@@ -566,7 +566,7 @@ body {
 
 .sign-in-form {
     display: inline-block;
-    margin-top: 95px;
+    margin-top: 100px;
     opacity: .9;
     background-color: #e4ecec;
     width: 300px;
